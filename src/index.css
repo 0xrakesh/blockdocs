@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: black;
+  color: white;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px; 
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #290e6d;
+  border-radius: 5px; 
+}
+
+::selection {
+  color: #4800ff;
+  background-color: #fce3cc;
+}
